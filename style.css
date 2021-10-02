@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #bc4e9c, #f80759);
+    background-size: cover;
+    font-family: sans-serif;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.player {
+    display: inline-block;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.301);
+    transition: all 0.4s;
+    /* justify-content: center; */
+    gap: 3rem;
+    width: 25%;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.player--active {
+    box-shadow: 0.2rem 0.2rem 28px rgba(0, 0, 0, 0.623);
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.score {
+    font-size: 4.5rem;
+    color: #e6004c;
+}
+
+.current {
+    /* justify-self: center; */
+    margin-top: auto;
+    text-align: center;
+    color: #fff;
+    padding: 1.3rem 3.5rem;
+    background-color: #ff0054;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.current-score {
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.player--0 {
+    border-radius: 8px 0 0 8px;
+}
+
+.player--1 {
+    border-radius: 0 8px 8px 0;
+}
+
+.midpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 3rem;
+    height: 65%;
+    background-color: rgba(0, 0, 0, 0.198);
+}
+
+.dice {
+    height: 10rem;
+    width: 10rem;
+    top: 24rem;
+    margin-top: auto;
+}
+
+.btn {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 500px;
+    font-size: 1.5rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.602);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:active {
+    transform: translateY(3%);
+    box-shadow: 0 0.2rem 0.7rem rgba(0, 0, 0, 0.602);
+}
+
+.btn--roll {
+    margin-top: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.player--winner {
+    background-color: #2f2f2f;
+    /* background-color: rgb(73, 255, 103); */
+}
+
+.player--winner .name {
+    color: #e6004c;
+}
+
+.player--winner .name:after {
+    content: " Wins";
+}
+
+/* responsiveness */
+
+/* width from 896px */
+@media (max-width: 56em) {
+    html {
+        font-size: 56.25%;
+    }
+    .player {
+        height: 50%;
+        font-size: 1.7rem;
+        gap: 2.5rem;
+    }
+    .current {
+        font-size: 1.5rem;
+        padding: 0.8rem 3rem;
+    }
+    .current-score {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    /* .score {
+        font-size: 4.5rem;
+        color: #e6004c;
+    } */
+    .midpart {
+        height: 50%;
+    }
+    .btn {
+        padding: 0.7rem 1.7rem;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+/* width from 672px */
+@media (max-width: 42em) {
+    html {
+        font-size: 50%;
+    }
+    .player {
+        height: 45%;
+        font-size: 1.4rem;
+    }
+    .current {
+        font-size: 1.2rem;
+        padding: 0.6rem 2.4rem;
+    }
+    .current-score {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+    /* .score {
+        font-size: 4.5rem;
+        color: #e6004c;
+    } */
+    .midpart {
+        padding: 2rem 0.5rem;
+        height: 45%;
+    }
+    .btn {
+        font-size: 1.3rem;
+    }
+}
+
+
+/* width from 464px */
+@media (max-width: 29em) {
+    html {
+        font-size: 43.75%;
+    }
+    .player {
+        height: 40%;
+        font-size: 1.2rem;
+    }
+    .current {
+        font-size: 1rem;
+        padding: 0.6rem 2.4rem;
+    }
+    .current-score {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    /* .score {
+        font-size: 4.5rem;
+        color: #e6004c;
+    } */
+    .midpart {
+        height: 40%;
+    }
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+    .dice {
+        height: 9rem;
+        width: 9rem;
+    }
+}
+
+
+@media (max-width: 26em) {
+    html {
+        font-size: 40%;
+    }
+    .player {
+        height: 20%;
+        font-size: 1rem;
+        gap: 2rem
+    }
+    .current {
+        font-size: 0.8rem;
+        padding: 0.6rem 2rem;
+    }
+    .current-score {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+    /* .score {
+        font-size: 4.5rem;
+        color: #e6004c;
+    } */
+    .midpart {
+        height: 20%;
+    }
+    .btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    .dice {
+        height: 7rem;
+        width: 7rem;
+    }
+}
