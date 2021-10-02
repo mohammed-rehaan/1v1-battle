@@ -79,7 +79,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     gap: 3rem;
     height: 65%;
     background-color: rgba(0, 0, 0, 0.198);
@@ -129,126 +129,34 @@ main {
 }
 
 
-/* 
-width from 896px
-@media (max-width: 56em) {
-    html {
-        font-size: 56.25%;
+
+/* Responsive from start */
+
+@media (max-width : 22.5em){
+    html{
+        font-size: 50%;
     }
-    .player {
-        height: 55%;
-        font-size: 1.8rem;
-        gap: 2.5rem;
-        width: 35%;
+    .player{
+        height: 40%;
+        font-size: 1.5rem;
+        padding: 3rem 2rem;
     }
-    .current {
-        font-size: 1.7rem;
-        padding: 0.8rem 3rem;
+    .midpart{
+        height: 40%;
+    }
+    .current{
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
     }
     .current-score {
-        margin-top: 1.4rem;
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
-
-    .midpart {
-        padding: 2rem 0.5rem;
-        height: 55%;
-    }
-    .btn {
-        padding: 0.7rem 1.7rem;
-        font-size: 1.5rem;
-    }
-    .dice {
-        height: 8rem;
-        width: 8rem;
-    }
-
-}
-
-
-
-width from 672px
-@media (max-width: 42em) {
-    .player {
-        height: 50%;
-        font-size: 1.4rem;
-        width: 40%;
-    }
-    .current {
-        font-size: 1.5rem;
-        padding: 0.6rem 2.4rem;
-    }
-
-    .midpart {
-        height: 50%;
-    }
-    .btn {
+    .btn{
+        padding: 0.8rem 1.5rem;
         font-size: 1.3rem;
     }
-    .dice {
-        height: 6rem;
-        width: 6rem;
+    .dice{
+        height: 9rem;
+        width: 9rem;
     }
 }
-
-
-width from 464px
-@media (max-width: 29em) {
-    .player {
-        height: 45%;
-        font-size: 1rem;
-        width: 42%;
-    }
-    .current {
-        font-size: 1.2rem;
-        padding: 0.6rem 2.4rem;
-    }
-    .current-score {
-        margin-top: 0.6rem;
-        font-size: 2rem;
-    }
-
-    .midpart {
-        height: 45%;
-        width: 20%;
-    }
-    .btn {
-        padding: 0.5rem 1rem;
-        font-size: 1.2rem;
-    }
-    .dice {
-        height: 6rem;
-        width: 6rem;
-    }
-}
-
-
-@media (max-width: 26em) {
-    html {
-        font-size: 40%;
-    }
-    .player {
-        height: 30%;
-        font-size: 1.1rem;
-        gap: 2rem
-    }
-    .current {
-        font-size: 1rem;
-        padding: 0.6rem 2rem;
-    }
-    .current-score {
-        margin-top: 1rem;
-        font-size: 1.8rem;
-
-    .midpart {
-        height: 30%;
-    }
-    .btn {
-        padding: 0.5rem 0.8rem;
-        font-size: 1rem;
-    }
-    .dice {
-        height: 5rem;
-        width: 5rem;
-    }
-} */
