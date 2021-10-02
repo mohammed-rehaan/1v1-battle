@@ -128,9 +128,9 @@ main {
     content: " Wins";
 }
 
-/* responsiveness */
 
-/* width from 896px */
+/* 
+width from 896px
 @media (max-width: 56em) {
     html {
         font-size: 56.25%;
@@ -149,10 +149,7 @@ main {
         margin-top: 1.4rem;
         font-size: 3.1rem;
     }
-    /* .score {
-        font-size: 4.5rem;
-        color: #e6004c;
-    } */
+
     .midpart {
         padding: 2rem 0.5rem;
         height: 55%;
@@ -170,7 +167,7 @@ main {
 
 
 
-/* width from 672px */
+width from 672px
 @media (max-width: 42em) {
     .player {
         height: 50%;
@@ -181,10 +178,7 @@ main {
         font-size: 1.5rem;
         padding: 0.6rem 2.4rem;
     }
-    /* .score {
-        font-size: 4.5rem;
-        color: #e6004c;
-    } */
+
     .midpart {
         height: 50%;
     }
@@ -198,7 +192,7 @@ main {
 }
 
 
-/* width from 464px */
+width from 464px
 @media (max-width: 29em) {
     .player {
         height: 45%;
@@ -213,10 +207,7 @@ main {
         margin-top: 0.6rem;
         font-size: 2rem;
     }
-    /* .score {
-        font-size: 4.5rem;
-        color: #e6004c;
-    } */
+
     .midpart {
         height: 45%;
         width: 20%;
@@ -248,11 +239,7 @@ main {
     .current-score {
         margin-top: 1rem;
         font-size: 1.8rem;
-    }
-    /* .score {
-        font-size: 4.5rem;
-        color: #e6004c;
-    } */
+
     .midpart {
         height: 30%;
     }
@@ -264,4 +251,4 @@ main {
         height: 5rem;
         width: 5rem;
     }
-}
+} */
