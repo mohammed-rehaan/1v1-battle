@@ -137,16 +137,16 @@ main {
     }
     .player {
         height: 50%;
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         gap: 2.5rem;
     }
     .current {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         padding: 0.8rem 3rem;
     }
     .current-score {
         margin-top: 1rem;
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
     /* .score {
         font-size: 4.5rem;
@@ -157,7 +157,7 @@ main {
     }
     .btn {
         padding: 0.7rem 1.7rem;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -165,9 +165,6 @@ main {
 
 /* width from 672px */
 @media (max-width: 42em) {
-    html {
-        font-size: 50%;
-    }
     .player {
         height: 45%;
         font-size: 1.4rem;
@@ -196,15 +193,12 @@ main {
 
 /* width from 464px */
 @media (max-width: 29em) {
-    html {
-        font-size: 43.75%;
-    }
     .player {
         height: 40%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .current {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 0.6rem 2.4rem;
     }
     .current-score {
@@ -220,7 +214,7 @@ main {
     }
     .btn {
         padding: 0.5rem 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .dice {
         height: 9rem;
@@ -235,16 +229,16 @@ main {
     }
     .player {
         height: 20%;
-        font-size: 1rem;
+        font-size: 1.1rem;
         gap: 2rem
     }
     .current {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 0.6rem 2rem;
     }
     .current-score {
         margin-top: 1rem;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
     /* .score {
         font-size: 4.5rem;
@@ -255,7 +249,7 @@ main {
     }
     .btn {
         padding: 0.5rem 0.8rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .dice {
         height: 7rem;
