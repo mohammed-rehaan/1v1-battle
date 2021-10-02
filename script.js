@@ -71,7 +71,7 @@ rollDice.addEventListener('click', function () {
 
         const randomNum = Math.trunc((Math.random() * 6) + 1);
         diceEl.classList.remove('hidden');
-        diceEl.src = `img/dice-${randomNum}.png`;
+        diceEl.src = `img/dice-${randomNum}.webp`;
 
         if (randomNum != 1) {
             currentScore += randomNum;
