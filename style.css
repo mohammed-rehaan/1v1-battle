@@ -136,7 +136,7 @@ main {
         font-size: 56.25%;
     }
     .player {
-        height: 50%;
+        height: 55%;
         font-size: 1.8rem;
         gap: 2.5rem;
     }
@@ -145,8 +145,39 @@ main {
         padding: 0.8rem 3rem;
     }
     .current-score {
-        margin-top: 1rem;
+        margin-top: 1.4rem;
         font-size: 3.1rem;
+    }
+    /* .score {
+        font-size: 4.5rem;
+        color: #e6004c;
+    } */
+    .midpart {
+        padding: 2rem 0.5rem;
+        height: 55%;
+    }
+    .btn {
+        padding: 0.7rem 1.7rem;
+        font-size: 1.5rem;
+    }
+    .dice {
+        height: 8rem;
+        width: 8rem;
+    }
+
+}
+
+
+
+/* width from 672px */
+@media (max-width: 42em) {
+    .player {
+        height: 50%;
+        font-size: 1.4rem;
+    }
+    .current {
+        font-size: 1.5rem;
+        padding: 0.6rem 2.4rem;
     }
     /* .score {
         font-size: 4.5rem;
@@ -156,37 +187,11 @@ main {
         height: 50%;
     }
     .btn {
-        padding: 0.7rem 1.7rem;
-        font-size: 1.5rem;
-    }
-}
-
-
-
-/* width from 672px */
-@media (max-width: 42em) {
-    .player {
-        height: 45%;
-        font-size: 1.4rem;
-    }
-    .current {
-        font-size: 1.2rem;
-        padding: 0.6rem 2.4rem;
-    }
-    .current-score {
-        margin-top: 1rem;
-        font-size: 2.5rem;
-    }
-    /* .score {
-        font-size: 4.5rem;
-        color: #e6004c;
-    } */
-    .midpart {
-        padding: 2rem 0.5rem;
-        height: 45%;
-    }
-    .btn {
         font-size: 1.3rem;
+    }
+    .dice {
+        height: 6rem;
+        width: 6rem;
     }
 }
 
@@ -194,15 +199,15 @@ main {
 /* width from 464px */
 @media (max-width: 29em) {
     .player {
-        height: 40%;
-        font-size: 1.4rem;
+        height: 45%;
+        font-size: 1rem;
     }
     .current {
         font-size: 1.2rem;
         padding: 0.6rem 2.4rem;
     }
     .current-score {
-        margin-top: 1rem;
+        margin-top: 0.6rem;
         font-size: 2rem;
     }
     /* .score {
@@ -210,15 +215,15 @@ main {
         color: #e6004c;
     } */
     .midpart {
-        height: 40%;
+        height: 45%;
     }
     .btn {
         padding: 0.5rem 1rem;
         font-size: 1.2rem;
     }
     .dice {
-        height: 9rem;
-        width: 9rem;
+        height: 6rem;
+        width: 6rem;
     }
 }
 
@@ -228,7 +233,7 @@ main {
         font-size: 40%;
     }
     .player {
-        height: 20%;
+        height: 30%;
         font-size: 1.1rem;
         gap: 2rem
     }
@@ -245,14 +250,14 @@ main {
         color: #e6004c;
     } */
     .midpart {
-        height: 20%;
+        height: 30%;
     }
     .btn {
         padding: 0.5rem 0.8rem;
         font-size: 1rem;
     }
     .dice {
-        height: 7rem;
-        width: 7rem;
+        height: 5rem;
+        width: 5rem;
     }
 }
