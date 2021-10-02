@@ -12,12 +12,26 @@ const current0El = document.getElementById('current--0');
 const current1El = document.getElementById('current--1 ');
 const player0El = document.querySelector('.player--0');
 const player1El = document.querySelector('.player--1');
+const btnClose = document.querySelector('.btn-cross');
+const player = document.querySelectorAll('.player');
+const midPart = document.querySelector('.midpart');
+
 let playing = true;
 const scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 
+player[0].classList.add('hidden');
+player[1].classList.add('hidden');
+midPart.classList.add('hidden');
 
+
+btnClose.addEventListener('click', function () {
+    document.querySelector('.rule-window').classList.add('hidden');
+    player[0].classList.remove('hidden');
+    player[1].classList.remove('hidden');
+    midPart.classList.remove('hidden');
+});
 
 //Functions
 const resetAllScores = function () {
